@@ -1158,6 +1158,13 @@
             .philosophy-modal h3 { font-size: 1.25rem; }
             .form-row { grid-template-columns: 1fr; }
 
+            /* -- Japanese line-break control for all headings -- */
+            h2, h3 { word-break: keep-all; overflow-wrap: break-word; }
+
+            /* -- feature-p / section-p: PC-only breaks hidden on mobile -- */
+            .feature-p br,
+            .evidence-banner p br { display: none; }
+
             /* -- Affiliate section banner (independent) -- */
             .affiliate-banner { flex-direction: column !important; text-align: center; }
             .affiliate-banner-steps { grid-template-columns: 1fr !important; }
@@ -1251,7 +1258,7 @@
 
     <section class="section">
         <div class="container">
-            <h2 class="text-center fade-up">曖昧な口頭指導から<br>根拠のある<span class="text-gradient">「デジタル診断」</span>へ</h2>
+            <h2 class="text-center fade-up">曖昧な口頭指導から<br class="pc-br">根拠のある<span class="text-gradient">「デジタル診断」</span>へ</h2>
 
             <div class="comparison-grid fade-up">
                 <div class="comp-card">
@@ -1307,7 +1314,7 @@
                     「ChatGPTで代用できる」は<br><span style="background:linear-gradient(135deg,#ef4444,#f97316); -webkit-background-clip:text; -webkit-text-fill-color:transparent; font-weight:800;">誤解</span>です。
                 </h2>
                 <p style="color:var(--text-sub); font-size:1rem; max-width:600px; margin:0 auto; line-height:1.8;">
-                    生成AIはあくまで「テキストを生成する道具」。<br>ORIVEXは<strong style="color:white;">現場の収益と体験を設計するツール</strong>です。
+                    生成AIはあくまで「テキストを生成する道具」。<br class="pc-br">ORIVEXは<strong style="color:white;">現場の収益と体験を設計するツール</strong>です。
                 </p>
             </div>
 
@@ -1455,7 +1462,7 @@
 
     <section class="section voice-section">
         <div class="container">
-            <h2 class="text-center fade-up" style="margin-bottom: 50px;">導入トレーナーの声と<br><span class="text-gradient">圧倒的な業務効率化</span></h2>
+            <h2 class="text-center fade-up" style="margin-bottom: 50px;">導入トレーナーの声と<br class="pc-br"><span class="text-gradient">圧倒的な業務効率化</span></h2>
             
             <div class="voice-card fade-up">
                 <p class="voice-text">
@@ -1495,7 +1502,7 @@
                     <div style="color:var(--primary); font-weight:bold; margin-bottom:10px;">EVIDENCE BASED</div>
                     <h2 class="feature-h2">50種以上の成分DBと<br>PubMedエビデンス</h2>
                     <p class="feature-p">
-                        最新の論文データに基づき、クライアントの「体重・性別・トレーニング歴・目的」から最適な摂取量を自動計算。<br>
+                        最新の論文データに基づき、クライアントの「体重・性別・トレーニング歴・目的」から最適な摂取量を自動計算。<br class="pc-br">
                         提案には<span class="badge-pubmed">PMID: 28615996</span>のように根拠論文へのリンクが付与され、医療従事者レベルの信頼性を担保します。
                     </p>
                 </div>
@@ -1513,7 +1520,7 @@
                     <div style="color:var(--success); font-weight:bold; margin-bottom:10px;">MONETIZATION</div>
                     <h2 class="feature-h2">あなたの紹介料を<br>自動で組み込む</h2>
                     <p class="feature-p">
-                        診断結果の最後には「推奨ショップへ行く」ボタンを設置。<br>
+                        診断結果の最後には「推奨ショップへ行く」ボタンを設置。<br class="pc-br">
                         ここにあなたのアフィリエイトリンク（iHerb等）を設定することで、クライアントが購入するたびに収益が発生します。
                     </p>
                 </div>
@@ -1527,7 +1534,7 @@
                     <div style="color:var(--gold); font-weight:bold; margin-bottom:10px;">PRESCRIPTION</div>
                     <h2 class="feature-h2">「〇〇ジム監修」の<br>レポートとして発行</h2>
                     <p class="feature-p">
-                        ツール上部にあなたのジム名や屋号を表示可能。<br>
+                        ツール上部にあなたのジム名や屋号を表示可能。<br class="pc-br">
                         単なるアドバイスではなく、「先生が作ってくれた専用のレポート」としてクライアントに提供でき、満足度が向上します。
                     </p>
                 </div>
@@ -1936,7 +1943,7 @@
                 <span style="font-family:var(--font-main); font-size:0.8rem; font-weight:700; color:var(--primary); letter-spacing:0.5px;">複数店舗・本格導入を検討している方向け</span>
             </div>
             <h2 class="fade-up" style="margin-bottom:10px;">導入のご相談はこちら</h2>
-            <p class="fade-up" style="color:var(--text-sub); font-size:0.92rem;">複数店舗への展開や、竹・松プランの本格導入をご検討の方はお気軽にどうぞ。<br>通常1〜2営業日以内にご返信いたします。<br><span style="font-size:0.84rem; color:#64748b;">※ 梅（無料）プランは公式LINEから即ご利用開始できます。</span></p>
+            <p class="fade-up" style="color:var(--text-sub); font-size:0.92rem;">複数店舗への展開や、竹・松プランの本格導入をご検討の方はお気軽にどうぞ。<br class="pc-br">通常1〜2営業日以内にご返信いたします。<br class="pc-br"><span style="font-size:0.84rem; color:#64748b;">※ 梅（無料）プランは公式LINEから即ご利用開始できます。</span></p>
 
             <div class="contact-form-wrap fade-up" style="max-width:480px;">
                 <!-- Form -->
